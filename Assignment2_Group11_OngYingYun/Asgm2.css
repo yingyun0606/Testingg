@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Crimson+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+.intro {
+    font-family: "Crimson Pro", serif;
+    font-size: 20pt;
+    /* padding-left: 400pt;
+    padding-right: 400pt; */
+    padding-top: 400pt;
+    color: #04366c;
+    text-align: center;
+}
+
+.link-btn {
+    border-style: solid;
+    border-radius: 5pt;
+    border-width: 2pt;
+    padding: 10pt;
+    display: inline-flex;
+    text-decoration: none;
+    align-items: center;
+}
+
+.border-secondary_color,
+.hover-border-secondary_color:hover {
+    border-color: #04366c;
+}
+
+.color-secondary_color,
+.hover-color-secondary_color:hover,
+.btn__text:hover,
+.btn__text.loading,
+.btn__mobile-nav,
+.place .grid_main .place_number,
+#quickSearch .results a:hover,
+#quickSearch .results a:active {
+    color: #04366c;
+    font-family: "Crimson Pro", serif;
+    font-size: 30px;
+}
+
+.bg-transparent {
+    background-color: transparent;
+}
+
+.button {
+    border: 0;
+    cursor: pointer;
+    font-size: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    height: 100px;
+    position: relative;
+    /* border: 3px solid green; */
+}
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.center2 {
+    padding-top: 450pt;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.topnav {
+    background-color: transparent;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: right;
+    color: #04366c;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Crimson Pro", serif;
+}
+
+.topnav a:hover {
+    background-color: #04366c;
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+}
+
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.input {
+    font-size: 20px;
+    font-family: "Crimson Pro", serif;
+    color: #04366c;
+}
+
+.inputtype {
+    font-size: 20px;
+    font-family: "Crimson Pro", serif;
+    width: 50%;
+    border-color: #3aa6b9;
+    border-radius: 5px;
+    border-width: 3px;
+    background-color: transparent;
+}
+
+.sendbutton {
+    font-size: 20px;
+    font-family: "Crimson Pro", serif;
+    color: #ffffff;
+    background-color: #3aa6b9;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
